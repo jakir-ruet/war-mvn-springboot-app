@@ -8,7 +8,8 @@
 mvn clean install # Build
 mvn test # Test
 mvn spring-boot:run # Run, Or
-java -jar /target/war-mvn-springboot-app-0.0.1-SNAPSHOT.war # Run JAR
+java -jar /target/webapps.war # Run War Or
+java -jar /target/war-mvn-springboot-app-0.0.1-SNAPSHOT.war # Run War
 ```
 
 #### If need to change the port `src/main/resources/application.properties`
